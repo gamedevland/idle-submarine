@@ -1,0 +1,346 @@
+{
+  "stepSeconds": 0.016666666666666666,
+  "maxSteps": 15,
+  "maxDebtSeconds": 0.5,
+  "crossingSeconds": 20,
+  "coinRadius": 0.038,
+  "spawnGap": 0.012,
+  "suctionRadius": 0.105,
+  "submarineU": 0.35,
+  "pump": {
+    "pulseInterval": 0.08,
+    "particlesPerPulse": 4,
+    "maxParticles": 240,
+    "lifetime": 1.7,
+    "radius": 0.14,
+    "speedMin": 0.58,
+    "speedMax": 0.98,
+    "acceleration": 6.4,
+    "maxAcceleration": 6.4,
+    "maxSpeed": 0.9,
+    "wobble": 0.02,
+    "wobbleFrequency": 3.2,
+    "angularAmplitude": 0.32,
+    "materials": [
+      {
+        "id": "pearl",
+        "mass": 0.75,
+        "drag": 1.1
+      },
+      {
+        "id": "jade",
+        "mass": 0.89,
+        "drag": 1.23
+      },
+      {
+        "id": "emerald-rare",
+        "mass": 0.905,
+        "drag": 1.36
+      },
+      {
+        "id": "lapis-rare",
+        "mass": 1.045,
+        "drag": 1.49
+      },
+      {
+        "id": "message-bottle",
+        "mass": 1.075,
+        "drag": 1.1
+      },
+      {
+        "id": "ship-bell",
+        "mass": 1.215,
+        "drag": 1.23
+      },
+      {
+        "id": "quartz",
+        "mass": 1.03,
+        "drag": 1.36
+      },
+      {
+        "id": "amber",
+        "mass": 1.17,
+        "drag": 1.49
+      },
+      {
+        "id": "black-pearl-rare",
+        "mass": 1.185,
+        "drag": 1.62
+      },
+      {
+        "id": "garnet-rare",
+        "mass": 1.325,
+        "drag": 1.1
+      },
+      {
+        "id": "compass",
+        "mass": 1.355,
+        "drag": 1.36
+      },
+      {
+        "id": "silver-chalice",
+        "mass": 1.495,
+        "drag": 1.49
+      },
+      {
+        "id": "ammonite",
+        "mass": 1.31,
+        "drag": 1.62
+      },
+      {
+        "id": "amethyst",
+        "mass": 1.45,
+        "drag": 1.1
+      },
+      {
+        "id": "green-crystal-rare",
+        "mass": 1.465,
+        "drag": 1.23
+      },
+      {
+        "id": "sapphire-rare",
+        "mass": 0.78,
+        "drag": 1.36
+      },
+      {
+        "id": "sea-idol",
+        "mass": 0.81,
+        "drag": 1.62
+      },
+      {
+        "id": "royal-shell",
+        "mass": 0.95,
+        "drag": 1.1
+      },
+      {
+        "id": "turquoise",
+        "mass": 0.765,
+        "drag": 1.23
+      },
+      {
+        "id": "emerald",
+        "mass": 0.905,
+        "drag": 1.36
+      },
+      {
+        "id": "aquamarine-rare",
+        "mass": 0.92,
+        "drag": 1.49
+      },
+      {
+        "id": "opal-rare",
+        "mass": 1.06,
+        "drag": 1.62
+      },
+      {
+        "id": "whale-idol",
+        "mass": 1.09,
+        "drag": 1.23
+      },
+      {
+        "id": "armillary",
+        "mass": 1.23,
+        "drag": 1.36
+      },
+      {
+        "id": "lapis",
+        "mass": 1.045,
+        "drag": 1.49
+      },
+      {
+        "id": "black-pearl",
+        "mass": 1.185,
+        "drag": 1.62
+      },
+      {
+        "id": "geode-rare",
+        "mass": 1.2,
+        "drag": 1.1
+      },
+      {
+        "id": "obsidian-rare",
+        "mass": 1.34,
+        "drag": 1.23
+      },
+      {
+        "id": "sapphire-pendant",
+        "mass": 1.37,
+        "drag": 1.49
+      },
+      {
+        "id": "ruby-ring",
+        "mass": 1.51,
+        "drag": 1.62
+      },
+      {
+        "id": "garnet",
+        "mass": 1.325,
+        "drag": 1.1
+      },
+      {
+        "id": "green-crystal",
+        "mass": 1.465,
+        "drag": 1.23
+      },
+      {
+        "id": "abyss-stone-rare",
+        "mass": 1.48,
+        "drag": 1.36
+      },
+      {
+        "id": "rainbow-crystal-rare",
+        "mass": 0.795,
+        "drag": 1.49
+      },
+      {
+        "id": "royal-dagger",
+        "mass": 1.4,
+        "drag": 1.4
+      },
+      {
+        "id": "coral-crown",
+        "mass": 1.0,
+        "drag": 1.5
+      },
+      {
+        "id": "sapphire",
+        "mass": 0.78,
+        "drag": 1.36
+      },
+      {
+        "id": "aquamarine",
+        "mass": 0.92,
+        "drag": 1.49
+      },
+      {
+        "id": "void-crystal-rare",
+        "mass": 0.935,
+        "drag": 1.62
+      },
+      {
+        "id": "pearl-rare",
+        "mass": 0.75,
+        "drag": 1.1
+      },
+      {
+        "id": "ancient-mask",
+        "mass": 1.0,
+        "drag": 1.2
+      },
+      {
+        "id": "ocean-orb",
+        "mass": 1.1,
+        "drag": 1.3
+      },
+      {
+        "id": "opal",
+        "mass": 1.06,
+        "drag": 1.62
+      },
+      {
+        "id": "geode",
+        "mass": 1.2,
+        "drag": 1.1
+      },
+      {
+        "id": "jade-rare",
+        "mass": 0.89,
+        "drag": 1.23
+      },
+      {
+        "id": "quartz-rare",
+        "mass": 1.03,
+        "drag": 1.36
+      },
+      {
+        "id": "kraken-idol",
+        "mass": 1.1,
+        "drag": 1.4
+      },
+      {
+        "id": "trident",
+        "mass": 1.2,
+        "drag": 1.5
+      },
+      {
+        "id": "obsidian",
+        "mass": 1.34,
+        "drag": 1.23
+      },
+      {
+        "id": "abyss-stone",
+        "mass": 1.48,
+        "drag": 1.36
+      },
+      {
+        "id": "amber-rare",
+        "mass": 1.17,
+        "drag": 1.49
+      },
+      {
+        "id": "ammonite-rare",
+        "mass": 1.31,
+        "drag": 1.62
+      },
+      {
+        "id": "crystal-crown",
+        "mass": 1.2,
+        "drag": 1.2
+      },
+      {
+        "id": "abyss-eye",
+        "mass": 1.3,
+        "drag": 1.3
+      },
+      {
+        "id": "rainbow-crystal",
+        "mass": 0.795,
+        "drag": 1.49
+      },
+      {
+        "id": "void-crystal",
+        "mass": 0.935,
+        "drag": 1.62
+      },
+      {
+        "id": "amethyst-rare",
+        "mass": 1.45,
+        "drag": 1.1
+      },
+      {
+        "id": "turquoise-rare",
+        "mass": 0.765,
+        "drag": 1.23
+      },
+      {
+        "id": "pocket-watch",
+        "mass": 1.3,
+        "drag": 1.4
+      },
+      {
+        "id": "telescope",
+        "mass": 1.4,
+        "drag": 1.5
+      }
+    ],
+    "packetHeight": 0.075,
+    "spread": 0.07,
+    "fadeHeight": 0.22,
+    "releaseSeconds": 0.12,
+    "profiles": {
+      "lightRiseSpeed": 0.3,
+      "riseVariation": 0.2,
+      "currentVariation": 0.2
+    },
+    "turbulence": {
+      "minStrength": 0.55,
+      "spatialFrequency": 14,
+      "temporalFrequency": 3.1
+    }
+  },
+  "topMargin": 0.1,
+  "seabed": {
+    "gravity": 1.1,
+    "maxFallSpeed": 0.23
+  }
+}
